@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+a:link {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Courier New, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: bisque;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#paises {
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+
+#cabecalho-paises {
+    text-align: center;
+}
+
+#paises-europeus {
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: gray;
+}
