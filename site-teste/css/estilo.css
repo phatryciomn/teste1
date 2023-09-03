@@ -4,7 +4,7 @@
 
 ul li {
     list-style: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 a:link {
@@ -13,6 +13,7 @@ a:link {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 body {
@@ -20,29 +21,54 @@ body {
 }
 
 .cabecalho {
-    background-image: url(../imagens/paisagem2.jpg);
+    background-color: #f1b10e;
+    width: auto;
+    height: 350px;
+    margin: 50px;
+}
+
+.conteudo-cabecalho {
     text-align: center;
     padding-bottom: 25px;
-    padding-top: 25px;
-    height: 300px;
+    padding-top: 25px;;
+    position: center;
+}
+
+.conteudo-paises {
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    background-color: #f5c856;
 }
 
 #paises {
-    margin-top: 250px;
-    margin-left: 400px;
-    width: 200px;
-    background-color: blue;
-    color: white;
-}
-
-#cabecalho-paises {
     text-align: center;
 }
 
 #paises-europeus {
-    width: 180px;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-right: 40px;
     color: white;
-    background-color: gray;
+}
+
+.conteudo-turismo {
+    width: 300px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: #f5c856;
+}
+
+#turismo {
+    text-align: center;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#cabecalho-turismo {
+    padding-top: px;
 }
