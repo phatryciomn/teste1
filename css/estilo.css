@@ -1,0 +1,27 @@
+header {
+    border: 1px solid black;
+    display: flex; 
+    margin: 10px;
+    background-color: aqua;
+    color: white;
+}
+header h2 {
+    padding: 10px;
+}
+header a {
+    color: white;
+}
+header a:hover {
+    color: grey;
+}
+
+footer {
+    display: flex;
+    background-color: grey;
+    height: 100px;
+}
+footer h3 {
+    padding: 10px;
+    color: white;
+    font-family: arial ;
+}
