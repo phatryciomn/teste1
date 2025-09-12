@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(212, 209, 209, 0.848);
+    
+}
 header {
     border: 1px solid black;
     display: flex; 
@@ -24,6 +28,30 @@ footer h3 {
     padding: 10px;
     color: white;
     font-family: arial ;
+}
+
+#sobremim {
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#projetos {
+    color: white;
+    background-color: rgb(0, 166, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#contato {
+    color: white;
+    background-color: rgb(20, 89, 50);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
 }
 
 #btn {
