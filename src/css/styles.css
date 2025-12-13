@@ -19,6 +19,21 @@ header a:hover {
     color: grey;
 }
 
+#europa {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url(../imagens/a7.jpg);
+    height: 500px;
+
+    .title {
+        h1 {
+            position: relative;
+            align-items: center;
+        }
+    }
+}
+
 footer {
     display: flex;
     background-color: grey;

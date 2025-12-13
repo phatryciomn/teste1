@@ -4,19 +4,43 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Guia da Europa</title>
-    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
-
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./src/css/styles.css">
+    <link rel="icon" href="src/images/starbucks_PNG8.png" type="image/png">
+    
 
 </head>
 <body>
     
-    <header>
-        <h2><a href="">Início</a></h2>
-        <h2>Contato</h2>
-        <h2>Histórias</h2>
+    <header id="header" style="box-shadow: none;">
+        <nav class="navbar">
+            <button class="btn btn-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul id="nav-links">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#europa">Europa</a>
+                </li>
+                <li>
+                    <a href="#america">América</a>
+                </li>
+            </ul>
+
+            <a href="#" class="btn btn-default"></a>
+        </nav>
     </header>
+
+    <section id="europa">
+        <div class="title">
+            <h1>Europa</h1>
+        </div>
+    </section>
 
     <section id="sobremim">
         <h1>Sobre Mim</h1>
@@ -54,5 +78,7 @@
         <button>Contato</button>
     </footer>
     
+
+    <script src="./src/script.js" defer></script>
 </body>
 </html>
