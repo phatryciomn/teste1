@@ -17,6 +17,7 @@
     font-weight: 600;
     background-color: transparent;
     transition: background-color 0.3 ease;
+    text-decoration: none;
 }
 .btn-mobile {
     font-size: 1.5rem;
@@ -27,5 +28,14 @@
 
     &:hover {
         background-color: var(--color-neutral-1);
+    }
+}
+
+@media (min-width: 768) {
+    #container {
+        background-image: url();
+        background-size: cover;
+        background-position: start;
+        background-repeat: no-repeat;
     }
 }
